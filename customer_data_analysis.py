@@ -1,18 +1,3 @@
-"""Customer segmentation and reporting example for an internship task.
-
-By default, this creates a reproducible synthetic dataset so the project can
-run without access to real customer records. To analyze an approved CSV, pass
---input path/to/customers.csv. Expected columns: customer_id, age, location,
-orders, total_spend, and optionally last_purchase_days_ago.
-
-Install:
-    python -m pip install pandas matplotlib openpyxl
-
-Run:
-    python customer_data_analysis.py
-    python customer_data_analysis.py --input customers.csv --output-dir report
-"""
-
 from __future__ import annotations
 
 import argparse
